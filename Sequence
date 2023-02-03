@@ -1,0 +1,9 @@
+a=[1,1]
+
+while a[-1]<100:
+    c= a[-1]+a[-2]
+    a.append(c)
+
+for x in a:
+    print(x,end=',')
+
